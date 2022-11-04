@@ -65,7 +65,7 @@ class PersonPagingAdapter(
             binding.tvOccupation.text = person.occupation
             binding.ivDelete.setOnClickListener {
                 getRef(position).removeValue()
-                this@PersonPagingAdapter.refresh()
+                refresh()
             }
         }
     }
