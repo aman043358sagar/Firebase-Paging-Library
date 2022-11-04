@@ -35,8 +35,9 @@ class MainActivity : AppCompatActivity() {
 
         val options: DatabasePagingOptions<Person> =
             DatabasePagingOptions.Builder<Person>().setLifecycleOwner(this)
-                .setQuery(mDatabase, config,
-                    Person::class.java).build()
+                .setQuery(mDatabase, config, Person::class.java)
+                .setLifecycleOwner(this)
+                .build()
         adapter = PersonPagingAdapter(options, binding.swipeRefreshLayout)
 
         binding.recyclerView.adapter = adapter
