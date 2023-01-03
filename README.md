@@ -3,7 +3,7 @@ This project demonstrates retrieving and deleting of data from firebase realtime
 
 Adding             |  Deleting
 :-------------------------:|:-------------------------:
-<img src="https://gitlab.com/aman043358sagar/Firebase-Reyclerview/-/raw/master/Files/firebase%20recyclerview.gif" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Firebase-Reyclerview/-/raw/master/Files/firebase%20delete.gif" width="246" height="438">
+<img src="https://gitlab.com/aman043358sagar/Firebase-Paging-Library/-/raw/master/File/adding.gif" width="246" height="438">  |  <img src="https://gitlab.com/aman043358sagar/Firebase-Paging-Library/-/blob/master/File/delete.gif" width="246" height="438">
 
 ## Library Used
 * Third party
